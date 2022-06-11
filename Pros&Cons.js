@@ -27,21 +27,18 @@
 
 /** LINKED LIST **/
 
+/* Some languages do not have Linked List, but they can be built, such as JS */
 /* Doubly: Used when there is no limitation for memory, and searching.
    GOOD: prev - traverse from back to front.
    BAD: complex to implement, more memory and storage, extra operations.
 
    Singly: Used when there is less memory, main goal is to do fast insertion and deletion, no much searching.
    GOOD: simple implementation - less memory, faster.
-   BAD: cannot be traversed from back to front.
-
- */
+   BAD: cannot be traversed from back to front. */
 
 /* https://visualgo.net/en/list?slide=1 */
 
-/* Some languages do not have Linked List, but they can be built, such as JS */
-/* GOOD:
-   BAD:
- */
+/* GOOD: fast insertion and deletion, ordered, flexible size.
+   BAD: slow lookup, more memory */
 
 
