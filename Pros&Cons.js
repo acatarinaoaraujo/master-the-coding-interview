@@ -14,8 +14,8 @@
 
 /* Hash Function: given an input, the function generates a random pattern and map it to a memory address where we want to store our data. Time complexity of O(1).  */
 
-/* GOOD: quick access to values.
-   BAD: hash collisions, loop though to find the keys.  */
+/* GOOD: fast lookups - if no collisions, fast inserts, flexible keys, optimize for loops.
+   BAD: hash collisions, loop though to find the keys - slow key iteration, unordered, more memory - space is O(n).  */
 
 /* Hash Collision: https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
    We can't avoid collisions. Theoretically when you have a collision, it slows down reading
