@@ -59,11 +59,24 @@
    ~ Arrays vs Linked List: Not a good idea to implement with Arrays, since we have indices, and we have to
    traverse after deleting an item.
 
-
-
-
-
-
    */
+
+/** TREES **/
+
+/* Binary Tree: Each node can only have 0, 1, or 2 child nodes, and each child can only have one parent.
+   ~ Perfect Binary Tree: All the leaf nodes are full and there is no node that has only 1 child.
+     Properties: 1) The number of total nodes on each level doubles as we move down the tree.
+                 2) The number of nodes on the last level is equal to the number of nodes on all the others levels plus 1.
+     Thus, half of nodes are in the last level, which makes it more efficient as we may not need to go all the way up.
+
+   ~ Full Binary Tree: A node has either 0 or 2 children, but never 1 child.
+
+   How to calculate how many nodes are? 2h - 1. Level 0: 2^0 = 1; Level 1: 2^1 = 2 ; Level 2: 2^2 = 4; Level 3: 2^3 = 8.
+   How to calculate the height of the tree? The height of a node in a binary tree is the largest number of edges in a path
+   from a leaf node to a target node. 
+
+
+*
+*  */
 
 
