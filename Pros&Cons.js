@@ -6,7 +6,9 @@
 /* GOOD: fast lookups, fast push/pop, ordered.
    BAD: slow inserts, slow deletes, fixed size*.
    We have to shift the array. You have to declare the size ahead,
-   however, it can be solved using dynamic array in some modern programming languages */
+   however, it can be solved using dynamic array in some modern programming languages
+
+   With arrays we have random access, it allows us to access any element within them using an index. */
 
 /** HASH TABLES (or HASH MAPS, MAPS, UNORDERED MAPS, OBJECT, DICTIONARIES **/
 
@@ -29,7 +31,8 @@
 
 /** LINKED LIST **/
 
-/* Some languages do not have Linked List, but they can be built, such as JS
+/* Some languages do not have Linked List, but they can be built, such as JS. In Linked List, we can change things dynamically
+   unlike array, but finding something within them O(n).
    ~ Doubly: Used when there is no limitation for memory, and searching.
    GOOD: prev - traverse from back to front.
    BAD: complex to implement, more memory and storage, extra operations.
@@ -84,6 +87,14 @@
 
    GOOD: better than O(n), ordered, flexible size.
    BAD: no O(1) operations.
+
+   Binary Heap: Commonly used in priority queues. You can't do random access like in Arrays or Hash Tables, as we know
+   about trees, we have do do a traversal. Binary Heap is less ordered than a Binary Search Trees - the left is smaller and
+   the right is larger than the parent, thus the lookup is O(n). Heaps add values on the tree from left to right, and bubbles
+   up if it is not in the same priority order.
+   Why use Binary Heap then? They are very good when doing comparative operations.
+   ~ Max Heap: The root is the bigger node, and the consecutive nodes are smaller (from top to bottom).
+   ~ Min Heap: The root is the smaller node, and the consecutive nodes are larger (from top to bottom).
 
 
 
