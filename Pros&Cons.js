@@ -88,10 +88,14 @@
    GOOD: better than O(n), ordered, flexible size.
    BAD: no O(1) operations.
 
-   Binary Heap: Commonly used in priority queues. You can't do random access like in Arrays or Hash Tables, as we know
+   Binary Heap: Commonly used in Priority Queues. You can't do random access like in Arrays or Hash Tables, as we know
    about trees, we have do do a traversal. Binary Heap is less ordered than a Binary Search Trees - the left is smaller and
    the right is larger than the parent, thus the lookup is O(n). Heaps add values on the tree from left to right, and bubbles
-   up if it is not in the same priority order.
+   up if it is not in the same priority order. Binary Heap is memory efficient!
+
+   GOOD: better than O(n), priority, flexible size, fast insert.
+   BAD: slow lookup.
+
    Why use Binary Heap then? They are very good when doing comparative operations.
    ~ Max Heap: The root is the bigger node, and the consecutive nodes are smaller (from top to bottom).
    ~ Min Heap: The root is the smaller node, and the consecutive nodes are larger (from top to bottom).
