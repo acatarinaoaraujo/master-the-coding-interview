@@ -69,7 +69,7 @@
 /*
    https://visualgo.net/en/bst
 
-   Binary Tree: Each node can only have 0, 1, or 2 child nodes, and each child can only have one parent.
+   1. Binary Tree: Each node can only have 0, 1, or 2 child nodes, and each child can only have one parent.
    ~ Perfect Binary Tree: All the leaf nodes are full and there is no node that has only 1 child.
      Properties: 1) The number of total nodes on each level doubles as we move down the tree.
                  2) The number of nodes on the last level is equal to the number of nodes on all the others levels plus 1.
@@ -88,7 +88,7 @@
    GOOD: better than O(n), ordered, flexible size.
    BAD: no O(1) operations.
 
-   Binary Heap: Commonly used in Priority Queues. You can't do random access like in Arrays or Hash Tables, as we know
+   2. Binary Heap: Commonly used in Priority Queues. You can't do random access like in Arrays or Hash Tables, as we know
    about trees, we have do do a traversal. Binary Heap is less ordered than a Binary Search Trees - the left is smaller and
    the right is larger than the parent, thus the lookup is O(n). Heaps add values on the tree from left to right, and bubbles
    up if it is not in the same priority order. Binary Heap is memory efficient!
@@ -99,6 +99,10 @@
    Why use Binary Heap then? They are very good when doing comparative operations.
    ~ Max Heap: The root is the bigger node, and the consecutive nodes are smaller (from top to bottom).
    ~ Min Heap: The root is the smaller node, and the consecutive nodes are larger (from top to bottom).
+
+   3. Trie (Prefix Tree): Specialized tree used in searching, most often with text. And in most cases, it can outperform
+   binary search tree hash tables, and most data structures. A Trie has a start point which is empty. The benefit is speed -
+   O(length of the word), and space - because we use prefixes, we don't have to store multiple times.
 
 
 
