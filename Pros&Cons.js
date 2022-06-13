@@ -63,7 +63,10 @@
 
 /** TREES **/
 
-/* Binary Tree: Each node can only have 0, 1, or 2 child nodes, and each child can only have one parent.
+/*
+   https://visualgo.net/en/bst
+
+   Binary Tree: Each node can only have 0, 1, or 2 child nodes, and each child can only have one parent.
    ~ Perfect Binary Tree: All the leaf nodes are full and there is no node that has only 1 child.
      Properties: 1) The number of total nodes on each level doubles as we move down the tree.
                  2) The number of nodes on the last level is equal to the number of nodes on all the others levels plus 1.
@@ -73,7 +76,15 @@
 
    How to calculate how many nodes are? 2h - 1. Level 0: 2^0 = 1; Level 1: 2^1 = 2 ; Level 2: 2^2 = 4; Level 3: 2^3 = 8.
    How to calculate the height of the tree? The height of a node in a binary tree is the largest number of edges in a path
-   from a leaf node to a target node. 
+   from a leaf node to a target node.
+
+   Balanced vs Unbalanced: Instead of Olog(n) in balanced binary trees, now we have O(n) in unbalanced binary trees.
+   Thus, we want to balance our unbalanced tree so it has a better performance. How we do it? Luckily, they are build in
+   in many programming languages.
+
+   GOOD: better than O(n), ordered, flexible size.
+   BAD: no O(1) operations.
+
 
 
 *
