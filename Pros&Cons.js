@@ -95,11 +95,34 @@
    BAD: slow lookup.
 
    Why use Binary Heap then? They are very good when doing comparative operations.
-   ~ Max Heap: The root is the bigger node, and the consecutive nodes are smaller (from top to bottom).
-   ~ Min Heap: The root is the smaller node, and the consecutive nodes are larger (from top to bottom).
+   - Max Heap: The root is the bigger node, and the consecutive nodes are smaller (from top to bottom).
+   - Min Heap: The root is the smaller node, and the consecutive nodes are larger (from top to bottom).
 
    3. Trie (Prefix Tree): Specialized tree used in searching, most often with text. And in most cases, it can outperform binary search tree hash tables,
     and most data structures. A Trie has a start point which is empty. The benefit is speed -O(length of the word), and space - because we use prefixes,
     we don't have to store multiple times.  */
+
+
+/** GRAPHS **/
+
+/* https://visualgo.net/en/graphds?slide=1
+
+  Ways to describe a graph:
+  - Directed/Undirected: In directed you can only go in one direction.
+  - Weighted/Unweighted: Values can be applied in the edges of the graph, not only in the nodes. Ex: What is the shortest graphs?
+  - Cyclic/Acyclic: Cyclic is when the graph contains a circle - when you go from one node and is able to return.
+
+  Graph Data
+  - Edge List:
+    const graph = [[0, 2], [2, 3], [2, 1], [1, 3]];
+
+  - Adjacent List:
+    const graph = [[2], [2, 3], [0, 1, 3], [1, 2]];
+
+  - Adjacent Matrix:
+    const graph = {0: [0, 0, 1, 0], 1: [0, 0, 1, 1], 2: [1, 1, 0, 1], 3: [0, 1, 1, 0]};
+
+    
+ */
 
 
