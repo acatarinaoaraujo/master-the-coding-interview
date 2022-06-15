@@ -107,6 +107,9 @@
 
 /* https://visualgo.net/en/graphds?slide=1
 
+  BAD: scaling is hard.
+  GOOD: relationships - some data need to be in a graph form.
+
   Ways to describe a graph:
   - Directed/Undirected: In directed you can only go in one direction.
   - Weighted/Unweighted: Values can be applied in the edges of the graph, not only in the nodes. Ex: What is the shortest graphs?
@@ -122,7 +125,7 @@
   - Adjacent Matrix:
     const graph = {0: [0, 0, 1, 0], 1: [0, 0, 1, 1], 2: [1, 1, 0, 1], 3: [0, 1, 1, 0]};
 
-    
+
  */
 
 
