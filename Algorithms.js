@@ -28,7 +28,9 @@
 /*
   https://www.toptal.com/developers/sorting-algorithms
 
-  - Bubble Sort: One of the simplest, and least efficient, but it is memory efficient.
+  - Bubble: One of the simplest, and least efficient, but it is memory efficient.
+  - Selection: Similar to Bubble, it is not time efficient, but it is memory efficient.
+
 
 
 */
