@@ -71,13 +71,15 @@
 /** TRAVERSAL **/
 
 /*
-  - BFS: Searching from left to right, from level to level until the value if found. It uses additional memory because it needs to track the child
-  nodes of all the nodes in a given level being searched. If you know the node is at the top, BFS is better.
+  https://visualgo.net/en/dfsbfs?slide=1
+
+  - BFS: Searching from left to right, from level to level until the value if found. It uses additional memory because it needs to track
+  the child nodes of all the nodes in a given level being searched. If you know the node is at the top, BFS is better.
   GOOD: shortest path, closer nodes.
   BAD: more memory.
 
-  - DFS: Search one branch of the tree as many low as possible until the end, then it continues to the next branch. It does not require as much memory.
-  If you know the node is at the bottom, DFS is better.
+  - DFS: Search one branch of the tree as many low as possible until the end, then it continues to the next branch. It does not require as
+  much memory. If you know the node is at the bottom, DFS is better.
   GOOD: less memory, does path exist?
   BAD: can get slow - if tree gets very deep.
 
@@ -97,10 +99,5 @@
   4. - If solutions are frequent but located deep in the tree: DFS
   5. - Determining whether a path exists between two nodes: DFS
   6. - Finding the shortest path: BFS
-
-
-
-
-
 
  */
