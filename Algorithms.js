@@ -81,7 +81,7 @@
   - DFS: Search one branch of the tree as many low as possible until the end, then it continues to the next branch. It does not require as
   much memory. If you know the node is at the bottom, DFS is better.
   GOOD: less memory, does path exist?
-  BAD: can get slow - if tree gets very deep.
+  BAD: can get slow - the deeper the tree gets, the more recursive calls, the more space complexity because you have to add the calls on the stack.
 
           9
       4      20
@@ -101,3 +101,13 @@
   6. - Finding the shortest path: BFS
 
  */
+
+/** Shortest Path **/
+
+/*
+  BFS is great for the shortest path, but it assumes each path between nodes have the same weight.
+
+   - Bellman-Ford: You can use it for negative values. Not very efficient.
+   - Dijkstra: Cannot use negative values. Very efficient.
+
+*/
