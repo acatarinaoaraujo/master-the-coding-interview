@@ -8,6 +8,7 @@ function fibonacci(n) { //O(2^n)
   return fibonacci(n-1) + fibonacci(n-2);
 }
 
+/* Top-Down */
 function fibonacciMaster() { //O(n)
   let cache = {};
   return function fib(n) {
@@ -24,7 +25,7 @@ function fibonacciMaster() { //O(n)
     }
   }
 }
-
+ /* Bottom-Up: harder to figure out when to use. It avoids recursion. */
 function fibonacciMaster2(n) {
   let answer = [0,1];
   for ( let i = 2; i <= n; i++) {
