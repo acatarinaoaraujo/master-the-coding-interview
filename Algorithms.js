@@ -114,8 +114,17 @@
 
 /** Dynamic Programming **/
 
-/* It is an optimization technique. Do you have something you can cache?
-   - Memoization: an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+/*
+   1. Can be divided into subproblem
+   2. Recursive solution
+   3. Are there repetitive subproblems
+   4. Memoize subproblems
+
+   Dynamic Programming = Divide and Conquer + Memoization.
+   - Memoization: an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and
+   returning the cached result when the same inputs occur again.
+
+
 
 */
 
