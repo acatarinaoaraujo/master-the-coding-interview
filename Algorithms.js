@@ -71,15 +71,24 @@
 /** TRAVERSAL **/
 
 /*
-  BFS: Searching from left to right, from level to level until the value if found. It uses additional memory because it needs to track the child
+  - BFS: Searching from left to right, from level to level until the value if found. It uses additional memory because it needs to track the child
   nodes of all the nodes in a given level being searched. If you know the node is at the top, BFS is better.
   GOOD: shortest path, closer nodes.
   BAD: more memory.
 
-  DFS: Search one branch of the tree as many low as possible until the end, then it continues to the next branch. It does not require as much memory.
+  - DFS: Search one branch of the tree as many low as possible until the end, then it continues to the next branch. It does not require as much memory.
   If you know the node is at the bottom, DFS is better.
   GOOD: less memory, does path exist?
   BAD: can get slow - if tree gets very deep.
+
+          9
+      4      20
+    1   6  15  170
+
+  Three Ways to do DFS:
+  - Inorder: [1, 4, 6, 9, 15, 20, 170]
+  - Preorder: [9, 4, 1, 6, 20, 15, 170]. Useful to recreate a tree.
+  - Postorder: [1, 6, 4, 15, 170, 20, 9]
 
   Traversal Quiz:
   1. - If you know a solution is not far from the root of the tree: BFS
