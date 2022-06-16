@@ -1,6 +1,8 @@
 /* Comparision of programming language:
    https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(associative_array) */
 
+/* Big O: https://www.bigocheatsheet.com/ */
+
 /** ARRAYS **/
 
 /* GOOD: fast lookups, fast push/pop, ordered.
