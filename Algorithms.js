@@ -21,9 +21,10 @@
   2. Each instance of the subproblem is identical in nature.
   3. The solutions of each subproblem can be combined to solver the problem at hand.
 
+*/
 
+/** SORTING **/
 
-
-
+/* 
 
 */
