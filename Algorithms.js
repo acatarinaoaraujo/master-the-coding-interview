@@ -28,10 +28,13 @@
 /*
   https://www.toptal.com/developers/sorting-algorithms
 
+  A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted. Some sorting algorithms are stable by nature like Insertion sort, Merge Sort, Bubble Sort, etc. And some sorting algorithms are not, like Heap Sort, Quick Sort, etc.
+
   - Bubble: One of the simplest, and least efficient, but it is memory efficient.
   - Selection: Similar to Bubble, it is not time efficient, but it is memory efficient.
   - Insertion: It is not one of the most efficients, but in some cases can be very fast - when the list is almost sorted you can even get linear time.
-  -
+  - Merge Sort: Divide and Conquer. Time efficient, but it needs more memory.
+  - Quick Sort: Divide and Conquer.
 
 
 */
