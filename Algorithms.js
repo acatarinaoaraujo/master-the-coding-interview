@@ -50,6 +50,7 @@
   Quick sort is one of the most popular, but the problem is when the pivot is not chosen correctly and we cant get the worst case.
   Heap Sort sorts in place, does not have a bad worst scenery, and does not use much memory. But on average it is slower than Merge.
 
+  Sort Quiz:
   1. - Sort 10 schools around your house by distance: insertion sort
   2. - eBay sorts listings by the current Bid amount: radix or counting sort
   3. - Sort scores on ESPN: quick sort.
@@ -64,6 +65,33 @@
 /** SEARCH **/
 
 /* Linear Search: Looking one by one in the list. Best Case: O(1), Worst Case: O(n). Thus it can cost a loy time.
+   Binary Search: Used when the list is is half-sorted - storing data in a tree instead of an array is more efficient. O(log n)
+ */
+
+/** TRAVERSAL **/
+
+/*
+  BFS: Searching from left to right, from level to level until the value if found. It uses additional memory because it needs to track the child
+  nodes of all the nodes in a given level being searched. If you know the node is at the top, BFS is better.
+  GOOD: shortest path, closer nodes.
+  BAD: more memory.
+
+  DFS: Search one branch of the tree as many low as possible until the end, then it continues to the next branch. It does not require as much memory.
+  If you know the node is at the bottom, DFS is better.
+  GOOD: less memory, does path exist?
+  BAD: can get slow - if tree gets very deep.
+
+  Traversal Quiz:
+  1. - If you know a solution is not far from the root of the tree: BFS
+  2. - If the tree is very deep and solutions are rare: BFS (DFS will take long time).
+  3. - If the tree is very wide: DFS (BFS will need too much memory)
+  4. - If solutions are frequent but located deep in the tree: DFS
+  5. - Determining whether a path exists between two nodes: DFS
+  6. - Finding the shortest path: BFS
+
+
+
+
 
 
  */
