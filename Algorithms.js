@@ -30,7 +30,8 @@
 
   - Bubble: One of the simplest, and least efficient, but it is memory efficient.
   - Selection: Similar to Bubble, it is not time efficient, but it is memory efficient.
-
+  - Insertion: It is not one of the most efficients, but in some cases can be very fast - when the list is almost sorted you can even get linear time.
+  -
 
 
 */
