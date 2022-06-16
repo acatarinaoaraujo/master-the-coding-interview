@@ -111,3 +111,11 @@
    - Dijkstra: Cannot use negative values. Very efficient.
 
 */
+
+/** Dynamic Programming **/
+
+/* It is an optimization technique. Do you have something you can cache?
+   - Memoization: an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+*/
+
