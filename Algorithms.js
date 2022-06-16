@@ -60,3 +60,10 @@
   8. - You want to teach sorting: bubble sort
 
 */
+
+/** SEARCH **/
+
+/* Linear Search: Looking one by one in the list. Best Case: O(1), Worst Case: O(n). Thus it can cost a loy time.
+
+
+ */
